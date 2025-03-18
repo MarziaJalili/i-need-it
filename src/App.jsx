@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Features from "./components/features/Features";
 import Testimonials from "./components/Testimonials";
 import Cta from "./components/Cta";
+import Footer from "./components/footer/Footer";
 
 import { useState } from "react";
 const App = () => {
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <Testimonials />
       <Cta />
+      <Footer darkMood={darkMood} />
     </main>
   );
 };

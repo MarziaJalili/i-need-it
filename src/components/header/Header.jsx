@@ -1,6 +1,6 @@
 import MobileNav from "./MobileNav";
 import ToggleButton from "./ToggleButton";
-import Logo from "../../Logo";
+import Logo from "../Logo";
 
 import { useState } from "react";
 
