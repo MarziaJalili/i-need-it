@@ -1,6 +1,7 @@
 import Header from "./components/header/Header";
 import Hero from "./components/Hero";
 import Features from "./components/features/Features";
+import Testimonials from "./components/Testimonials";
 
 import { useState } from "react";
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <Header darkMood={darkMood} setDarkMood={setDarkMood} />
       <Hero />
       <Features />
+      <Testimonials />
     </main>
   );
 };
