@@ -7,14 +7,14 @@ const Cta = () => {
         Simplify how your team works today.
       </h2>
 
-      <button>
-        <a
+      <a>
+        <button
           href="#"
           className="cta-btn p-3 px-6  font-medium rounded-full baseline bg-white text-Bright-Red transition-colors duration-300"
         >
           Get Started
-        </a>
-      </button>
+        </button>
+      </a>
     </section>
   );
 };

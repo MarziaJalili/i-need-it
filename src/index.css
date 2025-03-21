@@ -146,7 +146,7 @@ body.dark {
   .cta {
     background-color: #5e3fb8;
 
-    button a {
+    button {
       color: #5e3fb8;
     }
   }

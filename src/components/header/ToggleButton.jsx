@@ -12,6 +12,7 @@ const ToggleButton = ({ darkMood, setDarkMood }) => {
   }
   return (
     <button
+      aria-label="Toggles the dark and light mood"
       className="mood absolute top-[70px] cursor-pointer left-[10px]"
       onClick={changeMood}
     >

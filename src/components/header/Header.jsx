@@ -91,14 +91,14 @@ const Header = ({ darkMood, setDarkMood }) => {
       </button>
 
       {/* get started button */}
-      <button>
-        <a
+      <a>
+        <button
           href="#"
           className="dark-btn p-3 px-6 font-medium text-white bg-Bright-Red rounded-full baseline hover:bg-Bright-Red-Sup-Light transition-colors duration-300 hidden text-bold lg:block"
         >
           Get Started
-        </a>
-      </button>
+        </button>
+      </a>
     </header>
   );
 };
