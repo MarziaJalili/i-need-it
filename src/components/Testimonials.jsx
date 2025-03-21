@@ -45,7 +45,7 @@ const Testimonials = () => {
         index === 1 ? "md:flex" : ""
       } ${index === 2 ? "lg:flex" : ""} ${
         index === 3 ? "xl:flex" : ""
-      } flex-col items-center bg-Very-Light-Gray p-6 space-y-6 rounded-lg bg md:w-1/3`}
+      } flex-col items-center bg-Very-Light-Gray p-6 space-y-6 rounded-lg md:w-1/3`}
     >
       <img
         src={testimonil.img.src}
