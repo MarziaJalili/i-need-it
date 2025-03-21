@@ -52,7 +52,7 @@ const Testimonials = () => {
         alt={testimonil.img.alt}
         className="w-16 -mt-14"
       />
-      <h5 className="text-lg font-bold">{testimonil.username}</h5>
+      <h3 className="text-lg font-bold">{testimonil.username}</h3>
       <p className="text-sm text-Dark-Grayish-Blue">{testimonil.saying}</p>
     </li>
   ));
